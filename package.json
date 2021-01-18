@@ -1,0 +1,22 @@
+{
+  "name": "heyday-ai-test",
+  "version": "0.0.1",
+  "description": "Interview Test",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^8.0.14",
+    "typescript": "^4.1.3",
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "rxjs": "^6.6.3"
+  }
+}
